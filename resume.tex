@@ -1,0 +1,134 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{multicol}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot{}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+% Sections formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}
+\titlespacing{\section}{0pt}{6pt}{2pt}
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item{\small{#1}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{1pt}\textbf{#1} \hfill #2\\
+  {\emph{#3}} \hfill {\small #4}\\
+}
+\newcommand{\resumeSubItem}[2]{\resumeItem{\textbf{#1}{: #2}}}
+\newcommand{\resumeSubSection}[2]{\item\textbf{#1} --- #2}
+
+% Document
+\begin{document}
+
+%==================== HEADER ====================
+\begin{center}
+    {\LARGE \scshape Cesar Alan Torres} \\ 
+    \vspace{1pt}
+    Tijuana, B.C., Mexico $\cdot$ \href{mailto:catq2596@gmail.com}{catq2596@gmail.com} $\cdot$ \href{https://cesartorres.org}{cesartorres.org} \\
+\end{center}
+
+%==================== ABOUT ====================
+\section*{About Me}
+Machine Learning and AI Researcher with an academic background in Soft Computing and Computer Vision. Passionate about Linux, self-hosting, and implementing SOTA models tailored to edge devices.
+
+%==================== EXPERIENCE ====================
+\section*{Experience}
+\resumeSubheading{Thermo Fisher Scientific}{Nov 2024 -- Present}{Software Developer II}{Tijuana, Mexico}
+\begin{itemize}[leftmargin=0.15in]
+  \resumeItem{Designed and developed GeneAI.}
+  \resumeItem{Integrate LLMs including GPT, Claude, and various open-source LLMs within a secure, private deployment environment.}
+  \resumeItem{Built internal infrastructure for managing embeddings, routing logic, and response generation.}
+  \resumeItem{Enabled dynamic AI agent creation to support organization-wide automation and task handling.}
+  \resumeItem{Contributed to a fully customizable, ChatGPT-style interface with complete control over UX and model governance.}
+\end{itemize}
+
+\resumeSubheading{Samsung Research Tijuana}{Feb 2023 -- Nov 2024}{Machine Learning Engineer}{Tijuana, Mexico}
+\begin{itemize}[leftmargin=0.15in]
+  \resumeItem{Adapted SOTA models to develop proof-of-concept systems.}
+  \resumeItem{Built internal tools for data annotation and analysis.}
+  \resumeItem{Implemented real-time CV models (Face Recognition, Action Recognition).}
+  \resumeItem{Deployed LLMs/VLMs optimized for edge devices.}
+\end{itemize}
+
+\resumeSubheading{Sistemas Audiovisuales Tijuana}{Jul 2011 -- Jan 2021}{Audio and Illumination Technician}{Tijuana, Mexico}
+\begin{itemize}[leftmargin=0.15in]
+  \resumeItem{Operated and maintained audio, video, and lighting systems for a wide range of live events and conferences.}
+  \resumeItem{Handled stage setup, technical logistics, and on-site troubleshooting to ensure smooth event execution.}
+  \resumeItem{Oversaw end-to-end event production, including equipment configuration and coordination with performers or speakers.}
+  \resumeItem{Contributed across multiple roles as part of a family-run business, including client communication, planning, and general operations.}
+\end{itemize}
+
+%==================== EDUCATION ====================
+\section*{Education}
+\resumeSubheading{ScD. in Computer Science}{2024 -- 2028}{Instituto Tecnológico de Tijuana}{Focus: Generative AI, LLMs, Multimodal Learning}
+\resumeSubheading{MSc. in Computer Science}{2021 -- 2023}{Instituto Tecnológico de Tijuana}{Thesis: Deep Fuzzy Neural Learning Models}
+\resumeSubheading{BSc. in Computer Science Engineering}{2015 -- 2019}{Cetys Universidad Tijuana}{Cum Laude, Specialization in Computer Vision}
+
+%==================== SKILLS ====================
+\section*{Skills}
+\begin{itemize}[leftmargin=0.15in, itemsep=2pt]
+  \item \textbf{Programming:} Python, C++, C, Java, JavaScript, MATLAB
+  \item \textbf{ML Frameworks:} PyTorch, TensorFlow, Scikit-learn, Keras
+  \item \textbf{Data Science:} NumPy, Pandas, SciPy, XGBoost, Matplotlib
+  \item \textbf{Web:} HTML, CSS, React, Angular
+  \item \textbf{Tools:} Git, Docker, Hugging Face, RoboFlow, Jira
+  \item \textbf{Operating Systems:} Linux (Debian, Ubuntu, Arch), Windows, macOS
+  \item \textbf{Cloud:} AWS (EC2, Lambda, S3), GCP (Compute Engine, SQL DBs)
+  \item \textbf{Self-Hosting Services:} Pi-hole, NextCloud, Game Servers, Samba, Nginx, Wireguard
+\end{itemize}
+
+%==================== LANGUAGES ====================
+\section*{Languages}
+Spanish (Native), English (Advanced C1), German (Basic)
+
+%==================== AWARDS ====================
+\section*{Awards}
+\begin{itemize}[leftmargin=0.15in]
+  \resumeItem{1st Place: AI Hackathon by AiLabSchool, 2022 (Microsoft-sponsored)}
+  \resumeItem{127th Place: IBM Behind the Code Marathon, 2020 (50,000+ participants)}
+  \resumeItem{Outstanding Project: Engineering Project Fair, Cetys Universidad, 2019}
+\end{itemize}
+
+%==================== Publications ====================
+\section*{Selected Publications}
+\begin{itemize}[leftmargin=0.15in]
+  \item Fuzzy Edge Detection as a Preprocessing Layer in Deep Neural Networks for Guitar Classification. \textit{Sensors}, 2022. \href{https://doi.org/10.3390/s22155892}{doi:10.3390/s22155892}
+  \item Traffic Sign Recognition Using Fuzzy Preprocessing and Deep Neural Networks. \textit{Springer SCI}, 2023. \href{https://doi.org/10.1007/978-3-031-28999-6_5}{doi:10.1007/978-3-031-28999-6\_5}
+  \item Fuzzy CNN Model Applied to Classification Problems. \textit{J. of Intelligent \& Fuzzy Systems}, 2024. \href{http://doi.org/10.3233/JIFS-219369}{doi:10.3233/JIFS-219369}
+  \item Torres, C., Gonzalez, C.I. (2025). \textit{Automated Insights: LLMs in Neurodegenerative Disease Research and Comparison}. In: Martínez-Villaseñor, L., et al. \textit{Advances in Computational Intelligence. MICAI 2024 International Workshops}. Lecture Notes in Computer Science, vol 15464. Springer, Cham. \href{https://doi.org/10.1007/978-3-031-83879-8_9}{doi:10.1007/978-3-031-83879-8\_9}
+  \item Torres, C., Gonzalez, C.I., Garcia, M., \& Merelo-Guervos, J. (2025). \textit{Efficient Domain-Specific LLMs: Energy Profiling in Medical QA Tasks}. Accepted for presentation and publication at IJCNN 2025, Rome, Italy.
+\end{itemize}
+
+%==================== Presentations ====================
+\section*{Selected Presentations}
+\begin{itemize}[leftmargin=0.15in]
+  \item Deep Neural Network Approach for Guitar Type Classification in Real Time. VII Congreso Internacional de Investigación, UABC, Apr 2022.
+  \item Fuzzy Convolutional Layer in Deep Neural Networks for Feature Extraction. ISCI 2022, TecNM, Aug 2022.
+  \item Type-2 Fuzzy Image Enhancement to Improve the Performance of Convolutional Neural Networks. ISCMI 2023, CDMX.
+  \item Fuzzy Convolutional Neural Network Model Applied to Classification Problems. CCAIS 2023.
+  \item LLMs Oriented to Neurodegenerative Research. ISCI 2024, TecNM.
+  \item Type-2 Fuzzy Deep Learning Approach Applied to Classify Alzheimer's Disease. IPN-CITEDI, AI and Quantum Computing Seminar 2024.
+  \item Automated Insights: LLMs in Neurodegenerative Disease Research and Comparison. MICAI 2024, SMIA Workshop.
+\end{itemize}
+
+\end{document}
